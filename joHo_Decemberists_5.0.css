@@ -1,0 +1,282 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+/*pseudo classes - before/after, makes sure element before & after has no content*/
+blockquote:before, blockquote:after, 
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* RESET ENDS */
+
+body {
+background-color: #e0af79;
+}
+
+.backgroundright {
+position: fixed;
+right: 0;
+top: 0;
+z-index: -2;
+}
+
+.backgroundleft {
+position: fixed;
+left: 0;
+top: 0;
+z-index: -2;
+}
+
+.backgroundrabbit {
+position: fixed;
+left: 2%;
+bottom: 0;
+z-index: -2;
+}
+
+.backgroundbottomright {
+position: fixed;
+right: 0;
+bottom: 0;
+z-index: -1;
+}
+
+.backgroundbottomleft {
+position: fixed;
+left: 0;
+bottom: 0;
+z-index: -3;
+}
+
+/*background elements end*/
+
+.content {
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+header {
+text-align: center;
+} 
+
+.bandName {
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+clear: both;
+border: 5px double white;
+}
+
+.top_navigation_bar {
+width: 576px;
+margin: auto;
+margin-bottom: 0.5%;
+clear: both;
+border-width: 10px;
+padding: 2%;
+-moz-border-image:url("img/nav_border_2.png") 0 25 stretch; /* Firefox */
+-webkit-border-image:url("img/nav_border_2.png") 0 25 stretch; /* Safari */
+-o-border-image:url("img/nav_border_2.png") 0 25 stretch; /* Opera */
+border-image:url("img/nav_border_2.png") 0 25 stretch;
+text-align:center;
+/*background-image:url("img/bg_tan_transparent.png");
+border: 5px double white;*/
+}
+
+.topnav {
+margin: 0 2px;
+list-style-type: none;
+}
+
+ul li {
+display: inline-block;
+}
+
+a:hover .topnav {
+background-color: black;
+}
+
+.headlines {
+width: 225px;
+color: white;
+background-image:url("img/bg_black_transparent.png");
+margin-right: 2px;
+float: left;
+padding: 2px;
+}
+
+h2 {
+text-align: center;
+font-size: 2em;
+line-height: 1.3em;
+}
+
+h4 {
+font-size: 1.5em;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+}
+
+h5 {
+font-style: italic;
+text-decoration: underline;
+font-size: 1.2em;
+padding: 5px;
+font-family: monospace;
+}
+
+.headlines p {
+padding: 5px;
+font-family: monospace;
+}
+
+.videoplayer {
+float: left;
+width: 500px;
+background-color: white;
+padding-bottom: 80px;
+}
+
+iframe {
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+
+.videoplayer p {
+padding-left: 10px;
+padding-right: 10px;
+float: left;
+padding-top: 10px;
+}
+
+.socialicons {
+width: 30px;
+height: 30px;
+float: right;
+margin-right: 10px;
+float: right;
+padding-bottom: 5px;
+
+}
+
+.audioSet {
+width: 225px;
+float: right;
+text-align: left;
+background-image: url("img/bg_black_transparent.png");
+}
+
+.speaker {
+width: 130px;
+padding: 5px;
+position: relative;
+margin: auto;
+
+}
+
+.playing {
+margin-top: 0.5%;
+margin-left: 2%;
+margin-right: 2%;
+color: white;
+float: left;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+color: white;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.playing ol {
+list-style-type: decimal;
+line-height: 150%;
+color: white;
+font-style: italic;
+padding-left: 10%;
+}
+
+/*
+.playing{
+height:20px;
+overflow:hidden;
+}
+
+.playing:hover{
+height:auto;
+}
+
+.playing li {
+dis play: none;
+}
+
+a:hover .playing  li {
+display: block;
+}
+
+*/
+
+
+.bottom_navigation_bar {
+margin-left: auto;
+margin-right: auto;
+padding: 1%;
+text-align: center;
+clear: both;
+color: white;
+}
+
+
+
+a:visited {
+color: white;
+}
+
+.disclaimer {
+text-align: center;
+color: white;
+}

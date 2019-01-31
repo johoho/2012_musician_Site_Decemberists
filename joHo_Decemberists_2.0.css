@@ -1,0 +1,187 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+/*pseudo classes - before/after, makes sure element before & after has no content*/
+blockquote:before, blockquote:after, 
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* RESET ENDS */
+
+body {
+background-color: #e0af79;
+}
+
+header {
+text-align: center;
+} 
+
+.bandName {
+margin-left: auto;
+margin-right: auto:
+width: 90%;
+}
+
+h1 {
+font-size: 5em;
+text-align: center;
+}
+
+h2 {
+font-size: 3em;
+text-align: center;
+}
+
+.audioSet {
+width: 150px;
+height: 150px;
+position: fixed;
+right: 5%;
+top: 5%;
+z-index: 1;
+}
+
+.backgroundright {
+position: fixed;
+right: 0;
+top: 0;
+z-index: -2;
+}
+
+.backgroundleft {
+position: fixed;
+left: 0;
+top: 0;
+z-index: -2;
+}
+
+.backgroundrabbit {
+position: fixed;
+left: 2%;
+bottom: 0;
+z-index: -2;
+}
+
+.content {
+width: 90%;
+position: relative;
+left: 5%;
+top: 10%;
+border: 1px dotted white;
+}
+
+h4 {
+text-align: center;
+text-decoration:underline;
+padding: 2%;
+}
+
+h5 {
+font-style: italic;
+text-align: center;
+padding: 2%;
+}
+
+.top_navigation_bar {
+width: 50%;
+margin: auto;
+margin-bottom: 1%;
+clear: both;
+background-image:url("img/bg_tan_transparent.png");
+text-align:center;
+}
+
+.topnav {
+padding-top: 1px;
+margin: 2px;
+}
+
+.headlines {
+float: left;
+margin-bottom: 2%;
+width: 18%;
+min-width: 240px;
+color: white;
+background-image:url("img/bg_black_transparent.png");
+}
+
+.lft {
+padding: 5%;
+font-family: monospace;
+overflow-y:scroll;
+}
+
+.videobox {
+padding: 2%;
+margin: 2%;
+background-color: white;
+width: 40%;
+min-width: 240px;
+float: left;
+}
+
+ol {
+list-style-type: decimal;
+float: right;
+width: 16%;
+min-width: 240px;
+color: white;
+background-image:url("img/bg_black_transparent.png");
+font-style: italic;
+overflow-y:scroll;
+padding: 3%;
+}
+
+
+.bottom_navigation_bar {
+border: 1px dotted blue;
+border-bottom: 1px dotted black;
+margin-left: auto;
+margin-right: auto;
+padding: 1%;
+text-align: center;
+clear: both;
+}
+
+.disclaimer {
+text-align: center;
+padding-top: 1%
+}
